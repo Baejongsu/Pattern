@@ -2,40 +2,14 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ss"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
-    tools:context="com.example.araisan.myapplication.MainActivity">
-
-
-    <TextView
-        android:id="@+id/logotext"
-        android:layout_width="203dp"
-        android:layout_height="70dp"
-        android:text="Draw Macro"
-        android:textSize="35sp"
-        android:textColor="@android:color/black"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="117dp" />
+    android:background="#0054FF"
+    tools:context="com.example.user.osswproject.MainActivity">
 
     <Button
-        android:id="@+id/btn_createmacro"
-        android:layout_width="209dp"
-        android:layout_height="61dp"
-        android:background="@android:color/holo_blue_light"
-        android:text="MAKE MACRO!"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:id="@+id/startbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
-    <Button
-        android:id="@+id/btn_removemacro"
-        android:layout_width="209dp"
-        android:layout_height="63dp"
-        android:background="@android:color/holo_blue_light"
-        android:text="KICK THE MACRO"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="348dp" />
 </android.support.constraint.ConstraintLayout>
