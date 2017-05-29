@@ -1,4 +1,4 @@
-package com.example.hoon.gogomacro;
+package com.example.araisan.myapplication;
 
 import org.junit.Test;
 
