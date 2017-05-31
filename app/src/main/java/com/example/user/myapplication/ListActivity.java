@@ -1,4 +1,4 @@
-package com.example.user.osswproject;
+package com.example.user.myapplication;
 
 import android.app.Activity;
 import android.app.AlertDialog;

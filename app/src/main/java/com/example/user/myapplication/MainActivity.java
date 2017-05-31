@@ -1,5 +1,6 @@
-package com.example.user.osswproject;
+package com.example.user.myapplication;
 
+import android.app.ListActivity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,3 +30,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+

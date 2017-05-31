@@ -1,4 +1,4 @@
-package com.example.araisan.myapplication;
+package com.example.user.myapplication;
 
 import org.junit.Test;
 
