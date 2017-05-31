@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/groupname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="그룹"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <GridView
+            android:id="@+id/groupview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="100dp"
+            android:gravity="left"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>

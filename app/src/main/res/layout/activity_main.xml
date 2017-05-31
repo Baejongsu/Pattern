@@ -10,6 +10,8 @@
     <Button
         android:id="@+id/startbtn"
         android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_height="100dp"
+        android:text="Start"/>
+
 
 </android.support.constraint.ConstraintLayout>

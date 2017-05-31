@@ -9,9 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnWidth="100dp"
-        android:gravity="center"
+        android:gravity="left"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="완료"
+        android:textSize="30dp"
         />
 
 </LinearLayout>

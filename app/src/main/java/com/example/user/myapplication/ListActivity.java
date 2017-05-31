@@ -33,7 +33,7 @@ public class ListActivity extends Activity {
 
         addbtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), CreateActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
 
                 startActivity(intent);
             }

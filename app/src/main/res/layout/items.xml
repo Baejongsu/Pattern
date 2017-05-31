@@ -9,5 +9,13 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/appsname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:lines="1"/>
 
 </LinearLayout>
